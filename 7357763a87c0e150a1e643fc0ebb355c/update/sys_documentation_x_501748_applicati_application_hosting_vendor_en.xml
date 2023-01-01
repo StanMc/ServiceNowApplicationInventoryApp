@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="hosting_vendor" label="Hosting Vendor" language="en" table="x_501748_applicati_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hosting_vendor</element>
+            <help/>
+            <hint/>
+            <label>Hosting Vendor</label>
+            <language>en</language>
+            <name>x_501748_applicati_application</name>
+            <plural>Hosting Vendors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-01 15:09:12</sys_created_on>
+            <sys_name>Hosting Vendor</sys_name>
+            <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+            <sys_update_name>sys_documentation_x_501748_applicati_application_hosting_vendor_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
