@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Can see the ip address in the form. </description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_501748_applicati.ip_address_admin</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>ip_address_admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 21:08:39</sys_created_on>
+        <sys_id>6572d00f8708e150a1e643fc0ebb356d</sys_id>
+        <sys_name>x_501748_applicati.ip_address_admin</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_update_name>sys_user_role_6572d00f8708e150a1e643fc0ebb356d</sys_update_name>
+    </sys_user_role>
+</record_update>

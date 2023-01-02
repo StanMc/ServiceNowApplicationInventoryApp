@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="opened_by" label="Opened By" language="en" table="x_501748_applicati_application">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <help/>
+            <hint/>
+            <label>Opened By</label>
+            <language>en</language>
+            <name>x_501748_applicati_application</name>
+            <plural>Opened Bys</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-02 13:38:40</sys_created_on>
+            <sys_name>Opened By</sys_name>
+            <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+            <sys_update_name>sys_documentation_x_501748_applicati_application_opened_by_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
