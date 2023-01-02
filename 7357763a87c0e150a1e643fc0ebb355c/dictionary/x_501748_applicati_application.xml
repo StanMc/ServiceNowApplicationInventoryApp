@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dcd7327a87c0e150a1e643fc0ebb35a2" label="Application" max_length="40" name="x_501748_applicati_application" type="collection">
+        <element label="Expired" max_length="40" name="expired" type="boolean"/>
         <element label="Has Personal Data" max_length="40" name="has_personal_data" type="boolean"/>
         <element label="Hosting Location" max_length="32" name="hosting_location" reference="cmn_location" type="reference"/>
         <element label="Hosting Vendor" max_length="40" name="hosting_vendor" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
-        <element choice="1" label="Mobile Application" max_length="40" name="mobile_application" type="choice">
-            <choice/>
+        <element label="Last Modified By" max_length="32" name="last_modified_by" read_only="true" reference="sys_user" type="reference"/>
+        <element choice="1" label="Mobile Application" mandatory="true" max_length="40" name="mobile_application" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Android" sequence="0" value="Android"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="iOS" sequence="1" value="iOS"/>
+                <element inactive_on_update="false" label="Android &amp; iOS" sequence="2" value="Android &amp; iOS"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Opened By" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference"/>
         <element label="Other" max_length="40" name="other" type="string"/>
         <element label="Self Hosted" max_length="40" name="self_hosted" type="boolean"/>
         <element label="Type of Application" max_length="32" name="type_of_application" reference="x_501748_applicati_type_of_application" type="reference"/>
@@ -15,6 +25,12 @@
             <element name="hosting_location"/>
         </index>
         <index name="index2">
+            <element name="last_modified_by"/>
+        </index>
+        <index name="index3">
+            <element name="opened_by"/>
+        </index>
+        <index name="index4">
             <element name="type_of_application"/>
         </index>
     </element>
