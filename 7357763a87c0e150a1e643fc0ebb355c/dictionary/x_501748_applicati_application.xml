@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dcd7327a87c0e150a1e643fc0ebb35a2" label="Application" max_length="40" name="x_501748_applicati_application" type="collection">
         <element label="Expired" max_length="40" name="expired" type="boolean"/>
+        <element display="true" label="Full Application Name" max_length="40" name="full_application_name" type="string" unique="true"/>
         <element label="Has Personal Data" max_length="40" name="has_personal_data" type="boolean"/>
         <element label="Hosting Location" max_length="32" name="hosting_location" reference="cmn_location" type="reference"/>
         <element label="Hosting Vendor" max_length="40" name="hosting_vendor" type="string"/>
@@ -21,16 +22,19 @@
         <element label="Other" max_length="40" name="other" type="string"/>
         <element label="Self Hosted" max_length="40" name="self_hosted" type="boolean"/>
         <element label="Type of Application" max_length="32" name="type_of_application" reference="x_501748_applicati_type_of_application" type="reference"/>
-        <index name="index">
-            <element name="hosting_location"/>
+        <index name="index" unique="true">
+            <element name="full_application_name"/>
         </index>
         <index name="index2">
-            <element name="last_modified_by"/>
+            <element name="hosting_location"/>
         </index>
         <index name="index3">
-            <element name="opened_by"/>
+            <element name="last_modified_by"/>
         </index>
         <index name="index4">
+            <element name="opened_by"/>
+        </index>
+        <index name="index5">
             <element name="type_of_application"/>
         </index>
     </element>
