@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_501748_applicati_application</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 21:18:25</sys_created_on>
+        <sys_id>43a4940f8708e150a1e643fc0ebb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_501748_applicati_application</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_update_name>sys_security_acl_43a4940f8708e150a1e643fc0ebb3595</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 21:18:25</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</application>
+        <file_path/>
+        <instance_id>04e79d6cdb2984d449eac597059619f0</instance_id>
+        <instance_name>dev95586</instance_name>
+        <name>sys_security_acl_43a4940f8708e150a1e643fc0ebb3595</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description/><name>x_501748_applicati_application</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 21:18:25</sys_created_on><sys_id>43a4940f8708e150a1e643fc0ebb3595</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_501748_applicati_application</sys_name><sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package><sys_policy/><sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope><sys_update_name>sys_security_acl_43a4940f8708e150a1e643fc0ebb3595</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 21:18:25</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-618101419</payload_hash>
+        <record_name>x_501748_applicati_application</record_name>
+        <reverted_from/>
+        <source>783823368784e150a1e643fc0ebb35f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 21:18:25</sys_created_on>
+        <sys_id>09e4948f8708e150a1e643fc0ebb354d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1856f3337450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 21:18:25</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>41e4948f3008e1507fab00474f11774d</update_guid>
+        <update_guid_history>41e4948f3008e1507fab00474f11774d:-618101419</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-15 12:37:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>08fc4f25ab384c2fa9d24c7059053131</sys_id>
+        <sys_metadata>43a4940f8708e150a1e643fc0ebb3595</sys_metadata>
+        <sys_name>x_501748_applicati_application</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_parent display_value="x_501748_applicati_application">d0d7327a87c0e150a1e643fc0ebb35a5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_scope_delete display_value="">415eb19dbfb244188418655a8bd10e51</sys_scope_delete>
+        <sys_update_name>sys_security_acl_43a4940f8708e150a1e643fc0ebb3595</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_43a4940f8708e150a1e643fc0ebb3595">09e4948f8708e150a1e643fc0ebb354d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

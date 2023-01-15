@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 14:48:45</sys_created_on>
+        <sys_id>74bb3e3e87c0e150a1e643fc0ebb3539</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_501748_applicati_type_of_application.x_501748_applicati.type_of_application_user</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_security_acl display_value="x_501748_applicati_type_of_application">7cbb3e3e87c0e150a1e643fc0ebb3536</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_74bb3e3e87c0e150a1e643fc0ebb3539</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 14:48:45</sys_updated_on>
+        <sys_user_role display_value="x_501748_applicati.type_of_application_user" name="x_501748_applicati.type_of_application_user">7cbb3a3e87c0e150a1e643fc0ebb3568</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</application>
+        <file_path/>
+        <instance_id>04e79d6cdb2984d449eac597059619f0</instance_id>
+        <instance_name>dev95586</instance_name>
+        <name>sys_security_acl_role_74bb3e3e87c0e150a1e643fc0ebb3539</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 14:48:45</sys_created_on><sys_id>74bb3e3e87c0e150a1e643fc0ebb3539</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_501748_applicati_type_of_application.x_501748_applicati.type_of_application_user</sys_name><sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package><sys_policy/><sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope><sys_security_acl display_value="x_501748_applicati_type_of_application">7cbb3e3e87c0e150a1e643fc0ebb3536</sys_security_acl><sys_update_name>sys_security_acl_role_74bb3e3e87c0e150a1e643fc0ebb3539</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 14:48:45</sys_updated_on><sys_user_role display_value="x_501748_applicati.type_of_application_user" name="x_501748_applicati.type_of_application_user">7cbb3a3e87c0e150a1e643fc0ebb3568</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-540158064</payload_hash>
+        <record_name>x_501748_applicati_type_of_application.x_501748_applicati.type_of_application_user</record_name>
+        <reverted_from/>
+        <source>7357763a87c0e150a1e643fc0ebb355e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 14:48:45</sys_created_on>
+        <sys_id>f0bb3e3e87c0e150a1e643fc0ebb356d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1856dce75e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 14:48:45</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>3cbb3e3e27c0e150d1488a239f5e206c</update_guid>
+        <update_guid_history>3cbb3e3e27c0e150d1488a239f5e206c:-540158064</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_501748_applicati_type_of_application.x_501748_applicati.type_of_application_us">3e55661f87942110a1e643fc0ebb35b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-15 12:43:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00b454edebca4dce845c22cff87987e4</sys_id>
+        <sys_metadata>74bb3e3e87c0e150a1e643fc0ebb3539</sys_metadata>
+        <sys_name>x_501748_applicati_type_of_application.x_501748_applicati.type_of_application_user</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_parent display_value="x_501748_applicati_type_of_application">7cbb3e3e87c0e150a1e643fc0ebb3536</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_scope_delete display_value="">415eb19dbfb244188418655a8bd10e51</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_74bb3e3e87c0e150a1e643fc0ebb3539</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_74bb3e3e87c0e150a1e643fc0ebb3539">f0bb3e3e87c0e150a1e643fc0ebb356d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

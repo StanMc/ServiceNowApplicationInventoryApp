@@ -2,15 +2,15 @@
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-01-01 14:48:45</sys_created_on>
-        <sys_id>b0bb3e3e87c0e150a1e643fc0ebb3534</sys_id>
-        <sys_name>x_501748_applicati_type_of_application.x_501748_applicati.type_of_application_user</sys_name>
+        <sys_created_on>2023-01-15 12:45:16</sys_created_on>
+        <sys_id>8285e25f87942110a1e643fc0ebb350b</sys_id>
+        <sys_name>x_501748_applicati_type_of_application.x_501748_applicati.u_app_admin</sys_name>
         <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
         <sys_security_acl display_value="x_501748_applicati_type_of_application">78bb3e3e87c0e150a1e643fc0ebb3531</sys_security_acl>
-        <sys_update_name>sys_security_acl_role_b0bb3e3e87c0e150a1e643fc0ebb3534</sys_update_name>
-        <sys_user_role display_value="x_501748_applicati.type_of_application_user" name="x_501748_applicati.type_of_application_user">7cbb3a3e87c0e150a1e643fc0ebb3568</sys_user_role>
+        <sys_update_name>sys_security_acl_role_8285e25f87942110a1e643fc0ebb350b</sys_update_name>
+        <sys_user_role display_value="x_501748_applicati.u_app_admin" name="x_501748_applicati.u_app_admin">0487b23a87c0e150a1e643fc0ebb357b</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>
