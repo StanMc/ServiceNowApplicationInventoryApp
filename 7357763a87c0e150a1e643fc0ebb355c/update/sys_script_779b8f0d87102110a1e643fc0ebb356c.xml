@@ -29,13 +29,21 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-
-	var applicationTypeGR = new GlideRecord("x_501748_applicati_type_of_application");
-	applicationTypeGR.newRecord();
-	applicationTypeGR.name = current.other; 
-	applicationTypeGR.insert(); 
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 	
+	
+	gs.addInfoMessage("Creating new application type");
+    if (gs.getUser().isMemberOf('101f39cf878ce150a1e643fc0ebb3531')) {
+		gs.addInfoMessage("This user is a member of the Admin group");
+        var applicationTypeGR = new GlideRecord("x_501748_applicati_type_of_application");
+        applicationTypeGR.newRecord();
+        applicationTypeGR.name = current.other;
+        applicationTypeGR.insert();
+    } else {
+		gs.addInfoMessage("This user is NOT an admin.");
+		current.type_of_application = "test";
+		current.other = "test"; 
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -44,14 +52,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>779b8f0d87102110a1e643fc0ebb356c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Create New Type of Application</sys_name>
         <sys_overrides/>
         <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
         <sys_update_name>sys_script_779b8f0d87102110a1e643fc0ebb356c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-05 21:02:51</sys_updated_on>
         <template/>
-        <when>after</when>
+        <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=779b8f0d87102110a1e643fc0ebb356c"/>
 </record_update>

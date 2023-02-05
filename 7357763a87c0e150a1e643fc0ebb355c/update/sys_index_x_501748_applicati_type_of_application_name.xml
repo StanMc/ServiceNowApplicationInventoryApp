@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>name</col_name_string>
+        <index_col_name element="name" name="x_501748_applicati_type_of_application">8b6b727a87c0e150a1e643fc0ebb3581</index_col_name>
+        <logical_table_name>x_501748_applicati_type_of_application</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-05 20:46:31</sys_created_on>
+        <sys_id>c73d50d287742510a1e643fc0ebb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_501748_applicati_type_of_application</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_update_name>sys_index_x_501748_applicati_type_of_application_name</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-05 20:46:31</sys_updated_on>
+        <table display_value="Type of Application" name="x_501748_applicati_type_of_application">886bf63e87c0e150a1e643fc0ebb35ac</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>
