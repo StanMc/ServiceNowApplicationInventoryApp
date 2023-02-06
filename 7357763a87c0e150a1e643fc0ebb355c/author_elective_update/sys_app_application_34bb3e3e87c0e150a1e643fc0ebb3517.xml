@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Type of Application</name>
+        <order>100</order>
+        <roles>x_501748_applicati.type_of_application_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 14:48:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34bb3e3e87c0e150a1e643fc0ebb3517</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Type of Application</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_update_name>sys_app_application_34bb3e3e87c0e150a1e643fc0ebb3517</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 14:48:44</sys_updated_on>
+        <title>Type of Application</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</application>
+        <file_path/>
+        <instance_id>04e79d6cdb2984d449eac597059619f0</instance_id>
+        <instance_name>dev95586</instance_name>
+        <name>sys_app_application_34bb3e3e87c0e150a1e643fc0ebb3517</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Type of Application</name><order>100</order><roles>x_501748_applicati.type_of_application_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-01 14:48:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>34bb3e3e87c0e150a1e643fc0ebb3517</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Type of Application</sys_name><sys_overrides/><sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package><sys_policy/><sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope><sys_update_name>sys_app_application_34bb3e3e87c0e150a1e643fc0ebb3517</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-01 14:48:44</sys_updated_on><title>Type of Application</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1322693465</payload_hash>
+        <record_name>Type of Application</record_name>
+        <reverted_from/>
+        <source>7357763a87c0e150a1e643fc0ebb355e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-01 14:48:44</sys_created_on>
+        <sys_id>b4bb3e3e87c0e150a1e643fc0ebb351a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1856dce74a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-01 14:48:44</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>fcbb3e3e3dc0e150b8d14adb307b9419</update_guid>
+        <update_guid_history>fcbb3e3e3dc0e150b8d14adb307b9419:1322693465</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Type of Application">0dd3d5d687382510a1e643fc0ebb35ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 00:45:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>8fa79116f83e4588bad98206ed363d84</sys_id>
+        <sys_metadata>34bb3e3e87c0e150a1e643fc0ebb3517</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Type of Application</sys_name>
+        <sys_package display_value="Application Inventory" source="x_501748_applicati">7357763a87c0e150a1e643fc0ebb355c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Application Inventory">7357763a87c0e150a1e643fc0ebb355c</sys_scope>
+        <sys_scope_delete display_value="">415eb19dbfb244188418655a8bd10e51</sys_scope_delete>
+        <sys_update_name>sys_app_application_34bb3e3e87c0e150a1e643fc0ebb3517</sys_update_name>
+        <sys_update_version display_value="sys_app_application_34bb3e3e87c0e150a1e643fc0ebb3517">b4bb3e3e87c0e150a1e643fc0ebb351a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 00:45:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
